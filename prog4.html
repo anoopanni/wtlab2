@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script>
+		var str=prompt("enter the input string","");
+	  
+		if(!isNaN(str))
+		{
+			var remainder,rev=0;
+			var num=parseInt(str);
+			
+			while(num!=0)
+			{
+				remainder=num%10;
+				num=parseInt(num/10);
+				rev=rev*10+remainder;
+			}
+			
+			alert("the reverse of the number "+str+" is "+rev);
+		}
+		
+		else
+		{
+			str=str.toUpperCase();
+			
+			for(var i=0;i<str.length;i++)
+			{
+				ch = str.charAt(i);
+				if(ch=="A" || ch=="E" || ch=="I" ||ch=="O" ||ch=="U")
+				break;
+			}
+			
+			if(i<str.length)
+			{
+				alert("first vowel is found for the string "+str.toLowerCase()+" at index:"+(i+1));
+			}
+		}
+	</script>
+</head>
+</html>
+		

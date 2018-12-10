@@ -1,0 +1,35 @@
+<?xml-stylesheet type="text/css" href="prog5.css"?>
+<html>
+<student>
+	<name>ANOOP S</name>
+	<usn>1BI15CS023</usn>
+	<branch>COMPUTER SCIENCE</branch>
+	<semester>7th SEMESTER,</semester>
+	<phone>8552254454</phone>
+</student>
+
+<student>
+	<name>ANIL KUMAR</name>
+	<usn>1BI15CS020</usn>
+	<branch>COMPUTER SCIENCE</branch>
+	<semester>7th SEMESTER,</semester>
+	<phone>8545646455</phone>
+</student>
+
+<student>
+	<name>ANKITH C KOWSHIK</name>
+	<usn>1BI15CS022</usn>
+	<branch>COMPUTER SCIENCE</branch>
+	<semester>7th SEMESTER,</semester>
+	<phone>8558451154</phone>
+</student>
+
+<student>
+	<name>ALVIN K</name>
+	<usn>1BI15CS045</usn>
+	<branch>COMPUTER SCIENCE</branch>
+	<semester>7th SEMESTER,</semester>
+	<phone>85454212425</phone>
+</student>
+
+</html>
